@@ -1,0 +1,32 @@
+{
+  "name": "telegram-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsc && node dist/bot.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.5.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "https-proxy-agent": "^7.0.6",
+    "morgan": "~1.9.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "pug": "2.0.0-beta11",
+    "socks-proxy-agent": "^8.0.5"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "@types/node-telegram-bot-api": "^0.64.8",
+    "typescript": "^5.8.3"
+  }
+}
